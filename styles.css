@@ -46,43 +46,58 @@ a:hover {
 
 .header-content {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #42a5f5; /* Medium blue */
+    color: #fff;
+    border-bottom: 4px solid #ffeb3b; /* Bright yellow border for a pop of color */
 }
 
 .header-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
     margin: 0;
-    color: #fff;
+    text-shadow: 2px 2px #000; /* Adds a shadow for depth */
+}
+
+.tagline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #ffeb3b; /* Bright yellow for emphasis */
 }
 
 .header-image {
-    width: 100px; /* Adjust the size as needed */
+    width: 120px; /* Adjust the size as needed */
     height: auto;
-    margin-left: 20px;
-}
-
-header {
-    background-color: #42a5f5; /* Medium blue */
-    color: #fff;
-    padding: 1em 0;
+    margin-top: 20px;
+    border: 2px solid #fff; /* White border for contrast */
+    border-radius: 50%; /* Makes the image circular */
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 20px 0 0 0;
     text-align: center;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 1em;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b; /* Change link color on hover */
 }
 
 section {
