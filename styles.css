@@ -204,3 +204,27 @@ form button:hover {
     background-color: #556b2f; /* Darker olive green on hover */
     transform: scale(1.1); /* Scale up the button slightly */
 }
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.header-content {
+    animation: slideIn 1s ease-out;
+}
+
+a {
+    color: #6b8e23; /* Olive green */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+a:hover {
+    color: #8b4513; /* Saddle brown on hover */
+}
