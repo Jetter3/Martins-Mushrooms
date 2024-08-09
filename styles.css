@@ -228,3 +228,7 @@ a {
 a:hover {
     color: #8b4513; /* Saddle brown on hover */
 }
+
+html {
+    scroll-behavior: smooth;
+}
