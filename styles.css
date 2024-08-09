@@ -174,3 +174,33 @@ footer {
 article {
     overflow: hidden; /* Ensures the container wraps around the floated image */
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#about {
+    animation: fadeIn 2s ease-in;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: #6b8e23; /* Olive green */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+form button:hover {
+    background-color: #556b2f; /* Darker olive green on hover */
+    transform: scale(1.1); /* Scale up the button slightly */
+}
