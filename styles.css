@@ -6,12 +6,12 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #e3f2fd; /* Light blue background */
+    background-color: #f5f5dc; /* Beige background */
 }
 
 h1, h2, h3 {
     font-family: 'Playfair Display', serif; /* Elegant and decorative font for headings */
-    color: #ffeb3b; /* Bright yellow for headings */
+    color: #8b4513; /* Saddle brown for headings */
     margin-bottom: 20px;
 }
 
@@ -30,12 +30,12 @@ h3 {
 
 p, ul, ol {
     font-size: 1.1em;
-    color: #333; /* Darker text color for better readability */
+    color: #4e342e; /* Deep brown for better readability */
     margin-bottom: 20px;
 }
 
 a {
-    color: #42a5f5;
+    color: #6b8e23; /* Olive green */
     text-decoration: none;
     font-weight: bold;
 }
@@ -50,9 +50,9 @@ a:hover {
     align-items: center;
     text-align: center;
     padding: 20px;
-    background-color: #42a5f5; /* Medium blue */
+    background-color: #8b4513; /* Saddle brown */
     color: #fff;
-    border-bottom: 4px solid #ffeb3b; /* Bright yellow border for a pop of color */
+    border-bottom: 4px solid #deb887; /* Burlywood border for a natural touch */
 }
 
 .header-content h1 {
@@ -66,7 +66,7 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
     margin-top: 10px;
-    color: #ffeb3b; /* Bright yellow for emphasis */
+    color: #deb887; /* Burlywood for emphasis */
 }
 
 .header-image {
@@ -97,7 +97,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffeb3b; /* Change link color on hover */
+    color: #deb887; /* Burlywood on hover */
 }
 
 section {
@@ -110,11 +110,11 @@ section {
 }
 
 .product {
-    border: 1px solid #42a5f5;
+    border: 1px solid #8b4513; /* Saddle brown border */
     padding: 1em;
     margin: 1em 0;
     border-radius: 8px;
-    background-color: #fffde7; /* Light yellow */
+    background-color: #fff8dc; /* Cornsilk background */
 }
 
 form {
@@ -124,7 +124,7 @@ form {
 
 form label {
     margin-top: 0.5em;
-    color: #42a5f5;
+    color: #8b4513; /* Saddle brown for labels */
     font-weight: bold;
 }
 
@@ -132,15 +132,15 @@ form input, form textarea {
     padding: 0.5em;
     margin-top: 0.5em;
     border-radius: 4px;
-    border: 1px solid #42a5f5;
+    border: 1px solid #8b4513; /* Saddle brown for input borders */
     background-color: #ffffff;
 }
 
 form button {
     margin-top: 1em;
     padding: 0.5em;
-    background-color: #ffeb3b; /* Bright yellow */
-    color: #000;
+    background-color: #6b8e23; /* Olive green */
+    color: #fff;
     border: none;
     cursor: pointer;
     border-radius: 4px;
@@ -148,13 +148,13 @@ form button {
 }
 
 form button:hover {
-    background-color: #fdd835; /* Slightly darker yellow on hover */
+    background-color: #556b2f; /* Darker olive green on hover */
 }
 
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #42a5f5; /* Matches the header color */
+    background-color: #8b4513; /* Saddle brown to match header */
     color: #fff;
     position: relative;
     width: 100%;
